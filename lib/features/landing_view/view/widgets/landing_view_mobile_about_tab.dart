@@ -35,7 +35,7 @@ class LandingViewMobileAboutTab extends StatelessWidget {
         SliverToBoxAdapter(
           child: Container(
             margin: EdgeInsets.only(top: 40.h, bottom: 20.h),
-            child: const HeaderSmallText(text: AppStrings.dynamicAppMagic),
+            child: const HeaderSmallText(text: AppStrings.runtimeAppVariables),
           ),
         ),
         SliverToBoxAdapter(

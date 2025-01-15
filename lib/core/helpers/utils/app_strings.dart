@@ -8,22 +8,22 @@ class AppStrings {
   static const String about = "About";
   static const String portfolio = "Portfolio";
   static const String skills = "Skills";
-  static const String dynamicAppMagic = "Dynamic App Mastery with Flutter";
-  static const String transformingConceptsInto = "Transforming Concepts into";
-  static const String seamless = 'Seamless';
-  static const String userExperience = 'User Experiences';
+  static const String runtimeAppVariables =
+      '''Building great mobile apps with Flutter!
+       I focus on clean architecture and state management
+        to ensure a smooth experience on both Android and iOS.''';
+  static const String smoothAppCreationMessage = "Creating smooth mobile apps";
+  static const String flutterIntegration = 'with Flutter for great';
+  static const String crossPlatformExperience = 'Android and iOS experiences';
   static const String introduction =
       "Hi! I’m Hussein Mohamed, a Flutter Developer Based in Egypt";
-  static const String seeMyWork = 'See my work';
+  static const String displayProjects = 'Display Projects';
   static const String downloadCV = 'Download CV';
-  static const String iPrioritizeClient =
-      "I prioritize client\ncollaboration, fostering\nopen communication";
+  static const String isClientPrioritized =
+      "I focus on working closely with clients and keeping the communication open.";
   static const String iAmVeryFlexible =
       "I’m very flexible with time\nzone communications";
-  static const String usa = 'USA';
-  static const String egypt = 'Egypt';
-  static const String germany = 'Germany';
-  static const russia = 'Russia';
+
   static const String techEnthusiast =
       'Tech enthusiast with a\npassion for development.';
   static const String wantToStartProjectTogether =

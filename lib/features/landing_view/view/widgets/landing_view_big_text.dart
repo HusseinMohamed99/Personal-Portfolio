@@ -20,19 +20,19 @@ class LandingViewBigText extends StatelessWidget {
             children: textSpans ??
                 [
                   TextSpan(
-                    text: '${AppStrings.transformingConceptsInto}\n',
+                    text: '${AppStrings.smoothAppCreationMessage}\n',
                     style: AppTextStyles.font72Bold(context).copyWith(
                       color: Colors.white,
                     ),
                   ),
                   TextSpan(
-                    text: '${AppStrings.seamless} ',
+                    text: '${AppStrings.flutterIntegration} ',
                     style: AppTextStyles.font72Bold(context).copyWith(
                       color: Colors.white,
                     ),
                   ),
                   TextSpan(
-                    text: AppStrings.userExperience,
+                    text: AppStrings.crossPlatformExperience,
                     style: AppTextStyles.font72Bold(context).copyWith(
                       color: AppColors.colorCBACF9,
                     ),

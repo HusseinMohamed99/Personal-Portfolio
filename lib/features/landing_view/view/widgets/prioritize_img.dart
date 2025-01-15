@@ -24,7 +24,7 @@ class PrioritizeImg extends StatelessWidget {
           start: 40.w,
           bottom: 60.h,
           child: Text(
-            AppStrings.iPrioritizeClient,
+            AppStrings.isClientPrioritized,
             style: AppTextStyles.font32Bold(context),
           ),
         ),

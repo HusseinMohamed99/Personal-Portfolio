@@ -30,7 +30,7 @@ class SeeMyWorkAndDownloadCVButtons extends StatelessWidget {
         children: [
           MainButton.icon(
             context: context,
-            labelText: AppStrings.seeMyWork,
+            labelText: AppStrings.displayProjects,
             svgIcon: $AssetsImagesGen().linkArrow,
             gradient: gradient,
             width: areExpanded ? double.infinity : null,
