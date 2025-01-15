@@ -21,6 +21,7 @@ dependencies:
   flutter_staggered_animations: ^1.1.1
   flutter_svg: ^2.0.17
   get_it: ^8.0.3
+  icons_launcher: ^3.0.0
   percent_indicator: ^4.2.4
   rename: ^3.0.2
   url_launcher: ^6.3.1
@@ -65,4 +66,3 @@ flutter_assets:
   output_path: lib/Core/helpers
   filename: image_assets.dart
   field_prefix: null
-  uses-material-design: true

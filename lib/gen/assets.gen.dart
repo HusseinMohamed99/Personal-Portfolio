@@ -63,6 +63,9 @@ class $AssetsFontsGen {
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/appIcon.png
+  AssetGenImage get appIcon => const AssetGenImage('assets/images/appIcon.png');
+
   /// File path: assets/images/background_grid-pattern.png
   AssetGenImage get backgroundGridPattern =>
       const AssetGenImage('assets/images/background_grid-pattern.png');
@@ -150,6 +153,7 @@ class $AssetsImagesGen {
 
   /// List of all assets
   List<dynamic> get values => [
+        appIcon,
         backgroundGridPattern,
         centricGridPattern,
         copyIcon,
