@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:personal_portfolio/core/routing/app_router.dart';
+import 'package:personal_portfolio/core/routing/routes.dart';
 
 class PersonalPortfolio extends StatelessWidget {
-  const PersonalPortfolio({super.key});
+  const PersonalPortfolio({super.key, required this.appRouter});
+  final AppRouters appRouter;
 
   @override
   Widget build(BuildContext context) {
@@ -25,7 +28,8 @@ class PersonalPortfolio extends StatelessWidget {
               title: 'Personal Portfolio',
               theme: ThemeData.dark(),
               themeMode: ThemeMode.dark,
-              home: Container(),
+              onGenerateRoute: appRouter.generateRoute,
+              initialRoute: Routes.landingPageView,
             ),
           );
         });
