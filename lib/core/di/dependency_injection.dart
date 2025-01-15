@@ -4,5 +4,5 @@ import 'package:personal_portfolio/features/landing_view/cubit/landing_cubit.dar
 final getIt = GetIt.instance;
 
 Future<void> setupGetIt() async {
-  getIt.registerSingleton<LandingCubit>(LandingCubit());
+  getIt.registerFactory<LandingCubit>(() => LandingCubit());
 }
