@@ -89,15 +89,15 @@ class $AssetsImagesGen {
   AssetGenImage get footerGridPattern =>
       const AssetGenImage('assets/images/footer-grid-pattern.png');
 
-  /// File path: assets/images/github-icon.svg
-  String get githubIcon => 'assets/images/github-icon.svg';
+  /// File path: assets/images/github.svg
+  String get github => 'assets/images/github.svg';
+
+  /// File path: assets/images/googleplay.svg
+  String get googleplay => 'assets/images/googleplay.svg';
 
   /// File path: assets/images/icare_icon.png
   AssetGenImage get icareIcon =>
       const AssetGenImage('assets/images/icare_icon.png');
-
-  /// File path: assets/images/instagram-icon.svg
-  String get instagramIcon => 'assets/images/instagram-icon.svg';
 
   /// File path: assets/images/intern-experience-img.png
   AssetGenImage get internExperienceImg =>
@@ -106,8 +106,8 @@ class $AssetsImagesGen {
   /// File path: assets/images/link_arrow.svg
   String get linkArrow => 'assets/images/link_arrow.svg';
 
-  /// File path: assets/images/linkedIn-icon.svg
-  String get linkedInIcon => 'assets/images/linkedIn-icon.svg';
+  /// File path: assets/images/linkedin.svg
+  String get linkedin => 'assets/images/linkedin.svg';
 
   /// File path: assets/images/linkup_icon.png
   AssetGenImage get linkupIcon =>
@@ -119,9 +119,6 @@ class $AssetsImagesGen {
   /// File path: assets/images/mobile-grid-pattern.png
   AssetGenImage get mobileGridPattern =>
       const AssetGenImage('assets/images/mobile-grid-pattern.png');
-
-  /// File path: assets/images/play.svg
-  String get play => 'assets/images/play.svg';
 
   /// File path: assets/images/prioritize-image.png
   AssetGenImage get prioritizeImage =>
@@ -160,16 +157,15 @@ class $AssetsImagesGen {
         downloadIcon,
         endSpotlight,
         footerGridPattern,
-        githubIcon,
+        github,
+        googleplay,
         icareIcon,
-        instagramIcon,
         internExperienceImg,
         linkArrow,
-        linkedInIcon,
+        linkedin,
         linkupIcon,
         mediumIcon,
         mobileGridPattern,
-        play,
         prioritizeImage,
         projectItemBackground,
         roomeIcon,

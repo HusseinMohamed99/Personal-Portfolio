@@ -68,31 +68,10 @@ class ProjectItem extends StatelessWidget {
             ),
           ),
           MySizedBox.height14,
-          Wrap(
-            spacing: 16.w,
-            direction: Axis.horizontal,
-            alignment: WrapAlignment.spaceEvenly,
-            runAlignment: WrapAlignment.start,
-            children: [
-              if (project.downloadUrl != null)
-                ProjectItemTextButton(
-                  url: project.downloadUrl!,
-                  titleText: AppStrings.downloadApp,
-                  svgPath: $AssetsImagesGen().downloadIcon,
-                ),
-              if (project.githubUrl != null)
-                ProjectItemTextButton(
-                  url: project.githubUrl!,
-                  titleText: AppStrings.viewOnGitHub,
-                  svgPath: $AssetsImagesGen().githubIcon,
-                ),
-              if (project.promoUrl != null)
-                ProjectItemTextButton(
-                  url: project.promoUrl!,
-                  titleText: AppStrings.seeThePromo,
-                  svgPath: $AssetsImagesGen().play,
-                ),
-            ],
+          ProjectItemTextButton(
+            url: project.downloadUrl,
+            titleText: AppStrings.downloadApp,
+            svgPath: $AssetsImagesGen().downloadIcon,
           ),
         ],
       ),

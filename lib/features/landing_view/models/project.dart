@@ -1,16 +1,13 @@
 import 'package:personal_portfolio/gen/assets.gen.dart';
 
 class Project {
-  final String name, description, image;
-  final String? githubUrl, downloadUrl, promoUrl;
+  final String name, description, image, downloadUrl;
 
   const Project({
     required this.name,
     required this.description,
     required this.image,
-    this.githubUrl,
-    this.downloadUrl,
-    this.promoUrl,
+    required this.downloadUrl,
   });
 
   static List<Project> portfolio = [
@@ -31,7 +28,7 @@ Highlights:
 Theming: Supports light and dark modes for a personalized experience.
 Localization: Available in English and Arabic to cater to a diverse audience.''',
       image: $AssetsImagesGen().storeifyIcon.path,
-      githubUrl:
+      downloadUrl:
           "https://play.google.com/store/apps/details?id=com.Dev.Muslim&pcampaignid=web_share",
     ),
     Project(
@@ -45,7 +42,7 @@ Key Features:
 📻 Radio: Stream live Quran recitations worldwide.
 📜 Rewayat: Explore different Rewayat of the Quran text.
 📹 Recitation Videos: Watch videos featuring recitations by renowned Quran reciters. ''',
-      image: $AssetsImagesGen().linkedInIcon,
+      image: $AssetsImagesGen().linkedin,
       downloadUrl:
           "https://play.google.com/store/apps/details?id=com.Dev.quranKareem",
     ),
@@ -54,7 +51,7 @@ Key Features:
       description:
           '''The BMI Calculator is a simple and intuitive mobile application designed to calculate the Body Mass Index (BMI) of users based on their height and weight. The app helps users determine their health status by classifying their BMI into various categories such as underweight, normal weight, overweight, and obesity.''',
       image: $AssetsImagesGen().roomeIcon.path,
-      githubUrl:
+      downloadUrl:
           "https://play.google.com/store/apps/details?id=com.Dev.bmiCalculator&pcampaignid=web_share",
     ),
   ];

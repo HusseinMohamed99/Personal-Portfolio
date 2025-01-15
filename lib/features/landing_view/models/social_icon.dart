@@ -11,20 +11,16 @@ class SocialIcon {
 
   static List<SocialIcon> socialIcons = [
     SocialIcon(
-      icon: $AssetsImagesGen().instagramIcon,
-      url: "https://www.instagram.com/aboghaly___/",
+      icon: $AssetsImagesGen().googleplay,
+      url: "https://play.google.com/store/apps/dev?id=5842045484913788359",
     ),
     SocialIcon(
       url: AppStrings.gitHubUrl,
-      icon: $AssetsImagesGen().githubIcon,
+      icon: $AssetsImagesGen().github,
     ),
     SocialIcon(
-      url: "https://www.linkedin.com/in/ahmed-ghaly15/",
-      icon: $AssetsImagesGen().linkedInIcon,
-    ),
-    SocialIcon(
-      url: "https://medium.com/@ahmedghaly15",
-      icon: $AssetsImagesGen().mediumIcon,
+      url: "https://www.linkedin.com/in/hussein99/",
+      icon: $AssetsImagesGen().linkedin,
     ),
   ];
 }
