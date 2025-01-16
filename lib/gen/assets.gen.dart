@@ -87,6 +87,10 @@ class $AssetsImagesGen {
   AssetGenImage get copyEmailAddressBackground =>
       const AssetGenImage('assets/images/copy_email_address_background.png');
 
+  /// File path: assets/images/development.png
+  AssetGenImage get development =>
+      const AssetGenImage('assets/images/development.png');
+
   /// File path: assets/images/download-icon.svg
   String get downloadIcon => 'assets/images/download-icon.svg';
 
@@ -107,6 +111,9 @@ class $AssetsImagesGen {
 
   /// File path: assets/images/googleplay.svg
   String get googleplay => 'assets/images/googleplay.svg';
+
+  /// File path: assets/images/hacker.png
+  AssetGenImage get hacker => const AssetGenImage('assets/images/hacker.png');
 
   /// File path: assets/images/intern-experience-img.png
   AssetGenImage get internExperienceImg =>
@@ -138,10 +145,6 @@ class $AssetsImagesGen {
   AssetGenImage get quranKareemIcon =>
       const AssetGenImage('assets/images/quranKareemIcon.png');
 
-  /// File path: assets/images/rb_19276.png
-  AssetGenImage get rb19276 =>
-      const AssetGenImage('assets/images/rb_19276.png');
-
   /// File path: assets/images/start_spotlight.png
   AssetGenImage get startSpotlight =>
       const AssetGenImage('assets/images/start_spotlight.png');
@@ -166,12 +169,14 @@ class $AssetsImagesGen {
         chat,
         copyIcon,
         copyEmailAddressBackground,
+        development,
         downloadIcon,
         egyDeadIcon,
         endSpotlight,
         footerGridPattern,
         github,
         googleplay,
+        hacker,
         internExperienceImg,
         linkArrow,
         linkedin,
@@ -180,7 +185,6 @@ class $AssetsImagesGen {
         prioritizeImage,
         projectItemBackground,
         quranKareemIcon,
-        rb19276,
         startSpotlight,
         tasks,
         techEnthusiastBackground,

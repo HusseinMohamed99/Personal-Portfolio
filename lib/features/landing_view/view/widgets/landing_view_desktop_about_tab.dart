@@ -90,16 +90,9 @@ class LandingViewDesktopAboutTab extends StatelessWidget {
             ),
           ),
         ),
-        SliverToBoxAdapter(
-          child: Container(
-            margin: EdgeInsets.only(
-              top: 70.h,
-              bottom: 130.h,
-              left: 90.w,
-              right: 90.w,
-            ),
-            child: const ExperienceItem(),
-          ),
+        SliverPadding(
+          padding: EdgeInsets.symmetric(vertical: 48.h, horizontal: 100.w),
+          sliver: const ExperienceSliverGrid(),
         ),
         SliverToBoxAdapter(
           child: Align(

@@ -33,8 +33,13 @@ class AppStrings {
   static const String downloadApp = 'Download App';
   static const String my = 'My';
   static const String workExperience = 'Work Experience';
-  static const String flutterDevIntern = 'Flutter Developer Intern';
-  static const String myInternDescription =
+  static const String flutterDevInfo =
+      'Flutter Developer at Value Business Planning';
+  static const String flutterDevDescription =
+      '• Designed and developed scalable, responsive app with high availability and performance for Android and iOS.\n • Performed unit testing, integration tests to ensure quality and stability.\n• Performance Optimization: Ensure a smooth and delightful user experience.\n• API: Integrate with various APIs and third-party services to extend your app’s functionality .\n• Collaboration: Work seamlessly with designers, product manager, and other developers.';
+  static const String flutterDeveloperInstructor =
+      'Flutter Developer Instructor';
+  static const String instructorDescription =
       "• Developed and integrated AI-driven features into Flutter mobile apps using various AI APIs.\n• Collaborated with a team of developers using Agile methodology, participating in weekly sprint meetings.\n• Built and tested responsive UIs for mobile applications, ensuring seamless performance on multiple devices.\n• Worked on debugging and optimizing Flutter applications to improve user experience and performance.\n• Assisted in the development and maintenance of Flutter-based apps for multiple clients, delivering high-quality solutions within deadlines.\n• Collaborated in code reviews and shared best practices to improve the overall quality of the team’s Flutter applications.";
   static const String approach = 'Approach';
   static const String approach1Name = 'Planning and Requirement Gathering';
