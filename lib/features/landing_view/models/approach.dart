@@ -21,17 +21,5 @@ class Approach {
       name: AppStrings.approach3Name,
       description: AppStrings.approach3Description,
     ),
-    Approach(
-      name: AppStrings.approach4Name,
-      description: AppStrings.approach4Description,
-    ),
-    Approach(
-      name: AppStrings.approach5Name,
-      description: AppStrings.approach5Description,
-    ),
-    Approach(
-      name: AppStrings.approach6Name,
-      description: AppStrings.approach6Description,
-    ),
   ];
 }

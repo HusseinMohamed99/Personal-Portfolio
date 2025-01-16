@@ -23,7 +23,7 @@ class ExperienceItem extends StatelessWidget {
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        spacing: 24.h,
+        spacing: 16.h,
         children: [
           Image.asset(
             experience.image,
@@ -33,6 +33,19 @@ class ExperienceItem extends StatelessWidget {
           Text(
             experience.name,
             style: AppTextStyles.font26Bold(context),
+          ),
+          Row(
+            spacing: 8.w,
+            children: [
+              Text(
+                experience.company,
+                style: AppTextStyles.font18Medium(context),
+              ),
+              Text(
+                experience.companyName,
+                style: AppTextStyles.font18Medium(context),
+              ),
+            ],
           ),
           Text(
             experience.description,
