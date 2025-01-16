@@ -26,7 +26,7 @@ class LandingViewBigText extends StatelessWidget {
                     ),
                   ),
                   TextSpan(
-                    text: '${AppStrings.flutterIntegration} ',
+                    text: '${AppStrings.flutterIntegration}\n',
                     style: AppTextStyles.font72Bold(context).copyWith(
                       color: Colors.white,
                     ),
@@ -34,7 +34,7 @@ class LandingViewBigText extends StatelessWidget {
                   TextSpan(
                     text: AppStrings.crossPlatformExperience,
                     style: AppTextStyles.font72Bold(context).copyWith(
-                      color: AppColors.colorCBACF9,
+                      color: AppColors.blueColor,
                     ),
                   ),
                 ],
