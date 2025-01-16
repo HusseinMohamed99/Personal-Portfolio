@@ -70,6 +70,9 @@ class $AssetsImagesGen {
   AssetGenImage get backgroundGridPattern =>
       const AssetGenImage('assets/images/background_grid-pattern.png');
 
+  /// File path: assets/images/bmiIcon.png
+  AssetGenImage get bmiIcon => const AssetGenImage('assets/images/bmiIcon.png');
+
   /// File path: assets/images/centric-grid-pattern.png
   AssetGenImage get centricGridPattern =>
       const AssetGenImage('assets/images/centric-grid-pattern.png');
@@ -83,6 +86,10 @@ class $AssetsImagesGen {
 
   /// File path: assets/images/download-icon.svg
   String get downloadIcon => 'assets/images/download-icon.svg';
+
+  /// File path: assets/images/egyDeadIcon.png
+  AssetGenImage get egyDeadIcon =>
+      const AssetGenImage('assets/images/egyDeadIcon.png');
 
   /// File path: assets/images/end_spotlight.png
   AssetGenImage get endSpotlight =>
@@ -123,6 +130,10 @@ class $AssetsImagesGen {
   AssetGenImage get mobileGridPattern =>
       const AssetGenImage('assets/images/mobile-grid-pattern.png');
 
+  /// File path: assets/images/muslimIcon.png
+  AssetGenImage get muslimIcon =>
+      const AssetGenImage('assets/images/muslimIcon.png');
+
   /// File path: assets/images/prioritize-image.png
   AssetGenImage get prioritizeImage =>
       const AssetGenImage('assets/images/prioritize-image.png');
@@ -130,6 +141,10 @@ class $AssetsImagesGen {
   /// File path: assets/images/project-item-background.png
   AssetGenImage get projectItemBackground =>
       const AssetGenImage('assets/images/project-item-background.png');
+
+  /// File path: assets/images/quranKareemIcon.png
+  AssetGenImage get quranKareemIcon =>
+      const AssetGenImage('assets/images/quranKareemIcon.png');
 
   /// File path: assets/images/roome_icon.png
   AssetGenImage get roomeIcon =>
@@ -155,10 +170,12 @@ class $AssetsImagesGen {
   List<dynamic> get values => [
         appIcon,
         backgroundGridPattern,
+        bmiIcon,
         centricGridPattern,
         copyIcon,
         copyEmailAddressBackground,
         downloadIcon,
+        egyDeadIcon,
         endSpotlight,
         footerGridPattern,
         github,
@@ -170,8 +187,10 @@ class $AssetsImagesGen {
         linkupIcon,
         mediumIcon,
         mobileGridPattern,
+        muslimIcon,
         prioritizeImage,
         projectItemBackground,
+        quranKareemIcon,
         roomeIcon,
         startSpotlight,
         storeifyIcon,

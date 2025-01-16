@@ -15,7 +15,7 @@ class Project {
       name: 'EgyDead - Movie App',
       description:
           "EGY DEAD is a Flutter application for movie and series enthusiasts. The app provides detailed information on films, anime, and TV shows with features for easy browsing, categorization, and exploring details about each show.",
-      image: $AssetsImagesGen().icareIcon.path,
+      image: $AssetsImagesGen().egyDeadIcon.path,
       downloadUrl:
           "https://play.google.com/store/apps/details?id=com.Dev.egyDead&pcampaignid=web_share",
     ),
@@ -27,7 +27,7 @@ class Project {
 Highlights:
 Theming: Supports light and dark modes for a personalized experience.
 Localization: Available in English and Arabic to cater to a diverse audience.''',
-      image: $AssetsImagesGen().storeifyIcon.path,
+      image: $AssetsImagesGen().muslimIcon.path,
       downloadUrl:
           "https://play.google.com/store/apps/details?id=com.Dev.Muslim&pcampaignid=web_share",
     ),
@@ -42,7 +42,7 @@ Key Features:
 📻 Radio: Stream live Quran recitations worldwide.
 📜 Rewayat: Explore different Rewayat of the Quran text.
 📹 Recitation Videos: Watch videos featuring recitations by renowned Quran reciters. ''',
-      image: $AssetsImagesGen().linkedin,
+      image: $AssetsImagesGen().quranKareemIcon.path,
       downloadUrl:
           "https://play.google.com/store/apps/details?id=com.Dev.quranKareem",
     ),
@@ -50,7 +50,7 @@ Key Features:
       name: "BMI Calculator - Health App",
       description:
           '''The BMI Calculator is a simple and intuitive mobile application designed to calculate the Body Mass Index (BMI) of users based on their height and weight. The app helps users determine their health status by classifying their BMI into various categories such as underweight, normal weight, overweight, and obesity.''',
-      image: $AssetsImagesGen().roomeIcon.path,
+      image: $AssetsImagesGen().bmiIcon.path,
       downloadUrl:
           "https://play.google.com/store/apps/details?id=com.Dev.bmiCalculator&pcampaignid=web_share",
     ),
