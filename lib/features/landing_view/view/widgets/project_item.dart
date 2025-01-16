@@ -38,7 +38,7 @@ class ProjectItem extends StatelessWidget {
             children: [
               Positioned.fill(
                 child: ClipRRect(
-                  borderRadius: BorderRadius.circular(14.r),
+                  borderRadius: BorderRadius.circular(14).r,
                   child: Image.asset(
                     $AssetsImagesGen().projectItemBackground.path,
                     fit: BoxFit.cover,
@@ -63,7 +63,6 @@ class ProjectItem extends StatelessWidget {
               child: Text(
                 project.description,
                 style: AppTextStyles.font20Regular(context),
-                textAlign: TextAlign.justify,
               ),
             ),
           ),
@@ -92,13 +91,17 @@ class ProjectItemTextButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextButton.icon(
+      iconAlignment: IconAlignment.end,
       style: TextButton.styleFrom(
         textStyle: AppTextStyles.font20Medium(context),
         foregroundColor: AppColors.colorCBACF9,
       ),
       onPressed: () async => await openUrl(url),
-      icon: Text(titleText),
-      label: SvgPicture.asset(svgPath),
+      icon: Padding(
+        padding: EdgeInsets.only(left: 12.w),
+        child: SvgPicture.asset(svgPath),
+      ),
+      label: Text(titleText),
     );
   }
 }
