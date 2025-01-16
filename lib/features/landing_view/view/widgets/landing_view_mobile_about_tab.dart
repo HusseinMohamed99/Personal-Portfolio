@@ -100,7 +100,7 @@ class LandingViewMobileAboutTab extends StatelessWidget {
               bottom: 24.h,
             ),
             child: const CustomSectionTitle(
-              whiteSpan: '${AppStrings.smallSelectionOf} ',
+              whiteSpan: '',
               colorfulSpan: AppStrings.recentProjects,
             ),
           ),

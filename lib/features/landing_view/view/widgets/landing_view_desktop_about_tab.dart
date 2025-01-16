@@ -64,7 +64,7 @@ class LandingViewDesktopAboutTab extends StatelessWidget {
         const SliverToBoxAdapter(
           child: Align(
             child: CustomSectionTitle(
-              whiteSpan: '${AppStrings.smallSelectionOf} ',
+              whiteSpan: '',
               colorfulSpan: AppStrings.recentProjects,
             ),
           ),

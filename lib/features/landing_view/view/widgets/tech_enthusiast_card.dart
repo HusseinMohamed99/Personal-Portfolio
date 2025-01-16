@@ -14,7 +14,7 @@ class TechEnthusiastCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return DecoratedBox(
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(23.r),
+        borderRadius: BorderRadius.circular(23).r,
         border: Border.all(
           color: AppColors.color6971A2.withAlpha(41),
           width: 1.w,
@@ -73,10 +73,7 @@ class _AnimatedTechEnthusiastCardState
               delay: const Duration(milliseconds: 300),
               child: const TechEnthusiastCard(),
             )
-          : const Opacity(
-              opacity: 0,
-              child: TechEnthusiastCard(),
-            ),
+          : TechEnthusiastCard(),
     );
   }
 }

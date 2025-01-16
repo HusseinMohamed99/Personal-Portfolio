@@ -18,7 +18,7 @@ class CopyMyEmailCard extends StatelessWidget {
     return DecoratedBox(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(23.r),
-        color: AppColors.color06091F,
+        color: AppColors.deepSpaceColor,
         border: Border.all(
           color: AppColors.color6971A2.withAlpha(41),
           width: 1.w,

@@ -24,9 +24,9 @@ class CustomSectionTitle extends StatelessWidget {
             ),
           ),
           TextSpan(
-            text: colorfulSpan,
+            text: colorfulSpan.toUpperCase(),
             style: AppTextStyles.font48Bold(context).copyWith(
-              color: AppColors.colorCBACF9,
+              color: AppColors.blueColor,
             ),
           ),
         ],

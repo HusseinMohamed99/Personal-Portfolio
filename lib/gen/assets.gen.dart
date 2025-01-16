@@ -138,6 +138,10 @@ class $AssetsImagesGen {
   AssetGenImage get quranKareemIcon =>
       const AssetGenImage('assets/images/quranKareemIcon.png');
 
+  /// File path: assets/images/rb_19276.png
+  AssetGenImage get rb19276 =>
+      const AssetGenImage('assets/images/rb_19276.png');
+
   /// File path: assets/images/start_spotlight.png
   AssetGenImage get startSpotlight =>
       const AssetGenImage('assets/images/start_spotlight.png');
@@ -176,6 +180,7 @@ class $AssetsImagesGen {
         prioritizeImage,
         projectItemBackground,
         quranKareemIcon,
+        rb19276,
         startSpotlight,
         tasks,
         techEnthusiastBackground,

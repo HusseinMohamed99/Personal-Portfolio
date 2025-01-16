@@ -23,14 +23,12 @@ class AppStrings {
       "I work closely with clients and\nkeep communication easy and open";
   static const String iAmVeryFlexible =
       "I’m very flexible with time\nzone communications";
-
   static const String techEnthusiast =
-      'Tech enthusiast with a\npassion for development.';
+      'Tech enthusiast passionate\nabout development.';
   static const String wantToStartProjectTogether =
       "Do you want to start\na project together?";
   static const String copyMyEmailAddress = 'Copy my email address';
-  static const String smallSelectionOf = 'A small selection of';
-  static const String recentProjects = 'recent projects';
+  static const String recentProjects = 'my recent projects';
   static const String viewOnGitHub = 'View on GitHub';
   static const String downloadApp = 'Download App';
   static const String my = 'My';
