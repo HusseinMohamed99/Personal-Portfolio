@@ -17,12 +17,7 @@ import 'package:personal_portfolio/features/landing_view/view/widgets/tabs_nav.d
 class LandingViewDesktopAboutTab extends StatelessWidget {
   const LandingViewDesktopAboutTab({
     super.key,
-    this.tabletLayoutProjectAspectRatio,
-    this.tabletApproachGridCrossAxisCount,
   });
-
-  final double? tabletLayoutProjectAspectRatio;
-  final int? tabletApproachGridCrossAxisCount;
 
   @override
   Widget build(BuildContext context) {
@@ -76,9 +71,7 @@ class LandingViewDesktopAboutTab extends StatelessWidget {
         ),
         SliverPadding(
           padding: EdgeInsets.symmetric(vertical: 48.h, horizontal: 100.w),
-          sliver: SmallSelectionSliverGrid(
-            tabletLayoutChildAspectRatio: tabletLayoutProjectAspectRatio,
-          ),
+          sliver: SmallSelectionSliverGrid(),
         ),
         SliverToBoxAdapter(
           child: Align(
@@ -121,9 +114,7 @@ class LandingViewDesktopAboutTab extends StatelessWidget {
         ),
         SliverPadding(
           padding: EdgeInsets.symmetric(horizontal: 90.w),
-          sliver: MyApproachSliverGrid(
-            tabletCrossAxisCount: tabletApproachGridCrossAxisCount,
-          ),
+          sliver: MyApproachSliverGrid(),
         ),
         const SliverToBoxAdapter(
           child: ContactMeSection(aspectRatio: 2),

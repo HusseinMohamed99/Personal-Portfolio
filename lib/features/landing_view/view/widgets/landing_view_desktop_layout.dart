@@ -42,11 +42,7 @@ class LandingViewDesktopLayout extends StatelessWidget {
           builder: (context, selectedTabNavIndex) {
             switch (selectedTabNavIndex) {
               case 0:
-                return LandingViewDesktopAboutTab(
-                  tabletLayoutProjectAspectRatio: tabletProjectAspectRatio,
-                  tabletApproachGridCrossAxisCount:
-                      tabletApproachGridCrossAxisCount,
-                );
+                return LandingViewDesktopAboutTab();
 
               case 1:
                 return const LandingViewDesktopSkillsTab();

@@ -20,7 +20,7 @@ class AppStrings {
   static const String displayProjects = 'Display Projects';
   static const String downloadCV = 'Download CV';
   static const String isClientPrioritized =
-      "I focus on working closely with clients and keeping the communication open.";
+      "I work closely with clients and\nkeep communication easy and open";
   static const String iAmVeryFlexible =
       "I’m very flexible with time\nzone communications";
 

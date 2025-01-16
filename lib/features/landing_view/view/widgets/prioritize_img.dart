@@ -14,10 +14,9 @@ class PrioritizeImg extends StatelessWidget {
     return Stack(
       children: [
         ClipRRect(
-          borderRadius: BorderRadius.circular(23.r),
+          borderRadius: BorderRadius.circular(23).r,
           child: Image.asset(
             $AssetsImagesGen().prioritizeImage.path,
-            fit: BoxFit.cover,
           ),
         ),
         PositionedDirectional(
@@ -25,7 +24,8 @@ class PrioritizeImg extends StatelessWidget {
           bottom: 60.h,
           child: Text(
             AppStrings.isClientPrioritized,
-            style: AppTextStyles.font32Bold(context),
+            textAlign: TextAlign.center,
+            style: AppTextStyles.font26Bold(context),
           ),
         ),
       ],
