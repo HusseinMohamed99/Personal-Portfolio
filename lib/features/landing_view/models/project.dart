@@ -49,7 +49,7 @@ class Project {
           '''Contactless Chatting: Message any number directly, without saving it to your phone's contacts. Essential Messaging Features: Send and receive text messages, images, and more. User-Friendly Interface: Simple and intuitive design for effortless navigation. Privacy-Focused: No personal information is stored or shared without your consent.''',
       image: $AssetsImagesGen().chat.path,
       downloadUrl:
-          "https://play.google.com/store/apps/details?id=com.Dev.bmiCalculator&pcampaignid=web_share",
+          "https://play.google.com/store/apps/details?id=com.Dev.fasterChatting&pcampaignid=web_share",
     ),
     Project(
       name: "Task Management - To-Do List",
