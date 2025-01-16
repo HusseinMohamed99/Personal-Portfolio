@@ -108,10 +108,6 @@ class $AssetsImagesGen {
   /// File path: assets/images/googleplay.svg
   String get googleplay => 'assets/images/googleplay.svg';
 
-  /// File path: assets/images/icare_icon.png
-  AssetGenImage get icareIcon =>
-      const AssetGenImage('assets/images/icare_icon.png');
-
   /// File path: assets/images/intern-experience-img.png
   AssetGenImage get internExperienceImg =>
       const AssetGenImage('assets/images/intern-experience-img.png');
@@ -172,7 +168,6 @@ class $AssetsImagesGen {
         footerGridPattern,
         github,
         googleplay,
-        icareIcon,
         internExperienceImg,
         linkArrow,
         linkedin,

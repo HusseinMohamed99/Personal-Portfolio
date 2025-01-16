@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:personal_portfolio/core/helpers/extensions/responsive_size_extension.dart';
 import 'package:personal_portfolio/features/landing_view/cubit/landing_cubit.dart';
 import 'package:personal_portfolio/features/landing_view/cubit/landing_state.dart';
 import 'package:personal_portfolio/features/landing_view/view/widgets/landing_view_desktop_about_tab.dart';
@@ -22,7 +23,12 @@ class LandingViewDesktopLayout extends StatelessWidget {
     return Stack(
       children: [
         Positioned.fill(
-          child: Image.asset($AssetsImagesGen().backgroundGridPattern.path),
+          child: Image.asset(
+            $AssetsImagesGen().backgroundGridPattern.path,
+            fit: BoxFit.fill,
+            width: context.width,
+            height: context.height,
+          ),
         ),
         PositionedDirectional(
           child: Image.asset($AssetsImagesGen().startSpotlight.path),
