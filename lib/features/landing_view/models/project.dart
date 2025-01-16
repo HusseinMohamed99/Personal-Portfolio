@@ -22,11 +22,7 @@ class Project {
     Project(
       name: "Muslim - Islamic App",
       description:
-          '''Muslim App is an all-in-one Islamic application that helps users enhance their spiritual journey and daily practices with various features.
-
-Highlights:
-Theming: Supports light and dark modes for a personalized experience.
-Localization: Available in English and Arabic to cater to a diverse audience.''',
+          '''Muslim App is an all-in-one Islamic application that helps users enhance their spiritual journey and daily practices with various features.''',
       image: $AssetsImagesGen().muslimIcon.path,
       downloadUrl:
           "https://play.google.com/store/apps/details?id=com.Dev.Muslim&pcampaignid=web_share",
@@ -34,14 +30,7 @@ Localization: Available in English and Arabic to cater to a diverse audience.'''
     Project(
       name: "Quran Kareem",
       description:
-          '''Quran Kareem is a comprehensive app designed to make Quran recitation, study, and listening simple and accessible. Perfect for Muslims and anyone seeking knowledge about Islam.
-
-Key Features:
-📚 Surah: Select any Surah for recitation or listen to individual verses for memorization. Seamlessly play entire Surahs.
-🎙️ Tafsir: Listen to Tafsir (interpretations) of the Quran to understand the meanings of the verses.
-📻 Radio: Stream live Quran recitations worldwide.
-📜 Rewayat: Explore different Rewayat of the Quran text.
-📹 Recitation Videos: Watch videos featuring recitations by renowned Quran reciters. ''',
+          '''Quran Kareem is a comprehensive app designed to make Quran recitation, study, and listening simple and accessible. Perfect for Muslims and anyone seeking knowledge about Islam.''',
       image: $AssetsImagesGen().quranKareemIcon.path,
       downloadUrl:
           "https://play.google.com/store/apps/details?id=com.Dev.quranKareem",
@@ -53,6 +42,24 @@ Key Features:
       image: $AssetsImagesGen().bmiIcon.path,
       downloadUrl:
           "https://play.google.com/store/apps/details?id=com.Dev.bmiCalculator&pcampaignid=web_share",
+    ),
+    Project(
+      name: "Faster Chatting - Connect to WhatsApp",
+      description:
+          '''Contactless Chatting: Message any number directly, without saving it to your phone's contacts. Essential Messaging Features: Send and receive text messages, images, and more. User-Friendly Interface: Simple and intuitive design for effortless navigation. Privacy-Focused: No personal information is stored or shared without your consent.''',
+      image: $AssetsImagesGen().chat.path,
+      downloadUrl:
+          "https://play.google.com/store/apps/details?id=com.Dev.bmiCalculator&pcampaignid=web_share",
+    ),
+    Project(
+      name: "Task Management - To-Do List",
+      description:
+          '''Developed a notes app where users can store their notes as tasks, set deadlines, and track
+progress. Integrated a task management system to help users stay organized and on top of their
+tasks. Designed a simple and user-friendly interface to ensure the app is easy to navigate.''',
+      image: $AssetsImagesGen().tasks.path,
+      downloadUrl:
+          "https://play.google.com/store/apps/details?id=com.Dev.taskManagement&pcampaignid=web_share",
     ),
   ];
 }

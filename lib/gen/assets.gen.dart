@@ -77,6 +77,9 @@ class $AssetsImagesGen {
   AssetGenImage get centricGridPattern =>
       const AssetGenImage('assets/images/centric-grid-pattern.png');
 
+  /// File path: assets/images/chat.png
+  AssetGenImage get chat => const AssetGenImage('assets/images/chat.png');
+
   /// File path: assets/images/copy-icon.svg
   String get copyIcon => 'assets/images/copy-icon.svg';
 
@@ -119,13 +122,6 @@ class $AssetsImagesGen {
   /// File path: assets/images/linkedin.svg
   String get linkedin => 'assets/images/linkedin.svg';
 
-  /// File path: assets/images/linkup_icon.png
-  AssetGenImage get linkupIcon =>
-      const AssetGenImage('assets/images/linkup_icon.png');
-
-  /// File path: assets/images/medium-icon.svg
-  String get mediumIcon => 'assets/images/medium-icon.svg';
-
   /// File path: assets/images/mobile-grid-pattern.png
   AssetGenImage get mobileGridPattern =>
       const AssetGenImage('assets/images/mobile-grid-pattern.png');
@@ -146,17 +142,12 @@ class $AssetsImagesGen {
   AssetGenImage get quranKareemIcon =>
       const AssetGenImage('assets/images/quranKareemIcon.png');
 
-  /// File path: assets/images/roome_icon.png
-  AssetGenImage get roomeIcon =>
-      const AssetGenImage('assets/images/roome_icon.png');
-
   /// File path: assets/images/start_spotlight.png
   AssetGenImage get startSpotlight =>
       const AssetGenImage('assets/images/start_spotlight.png');
 
-  /// File path: assets/images/storeify_icon.png
-  AssetGenImage get storeifyIcon =>
-      const AssetGenImage('assets/images/storeify_icon.png');
+  /// File path: assets/images/tasks.png
+  AssetGenImage get tasks => const AssetGenImage('assets/images/tasks.png');
 
   /// File path: assets/images/tech-enthusiast-background.png
   AssetGenImage get techEnthusiastBackground =>
@@ -172,6 +163,7 @@ class $AssetsImagesGen {
         backgroundGridPattern,
         bmiIcon,
         centricGridPattern,
+        chat,
         copyIcon,
         copyEmailAddressBackground,
         downloadIcon,
@@ -184,16 +176,13 @@ class $AssetsImagesGen {
         internExperienceImg,
         linkArrow,
         linkedin,
-        linkupIcon,
-        mediumIcon,
         mobileGridPattern,
         muslimIcon,
         prioritizeImage,
         projectItemBackground,
         quranKareemIcon,
-        roomeIcon,
         startSpotlight,
-        storeifyIcon,
+        tasks,
         techEnthusiastBackground,
         techEnthusiastBoxImg
       ];
