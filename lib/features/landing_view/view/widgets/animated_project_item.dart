@@ -45,10 +45,7 @@ class _AnimatedProjectItemState extends State<AnimatedProjectItem> {
                   duration: const Duration(milliseconds: 500),
                   child: ProjectItem(project: widget.project),
                 ))
-          : Opacity(
-              opacity: 0,
-              child: ProjectItem(project: widget.project),
-            ),
+          : ProjectItem(project: widget.project),
     );
   }
 }
