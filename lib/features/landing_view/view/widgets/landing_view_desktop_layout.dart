@@ -48,9 +48,7 @@ class LandingViewDesktopLayout extends StatelessWidget {
                 return const LandingViewDesktopSkillsTab();
 
               case 2:
-                return LandingViewDesktopPortfolioTab(
-                  tabletProjectAspectRatio: tabletProjectAspectRatio,
-                );
+                return LandingViewDesktopPortfolioTab();
 
               default:
                 return const LandingViewDesktopAboutTab();

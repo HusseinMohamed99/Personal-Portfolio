@@ -69,7 +69,7 @@ class ExperienceSliverGrid extends StatelessWidget {
     return SliverGrid.count(
       crossAxisCount: 2,
       crossAxisSpacing: 24.w,
-      childAspectRatio: 1 / 2,
+      childAspectRatio: 3 / 4.5,
       children: List.generate(
         2,
         (index) => FadeInLeft(
