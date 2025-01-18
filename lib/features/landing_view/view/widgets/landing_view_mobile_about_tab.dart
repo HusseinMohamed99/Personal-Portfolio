@@ -153,14 +153,12 @@ class LandingViewMobileAboutTab extends StatelessWidget {
             ),
           ),
         ),
-        SliverToBoxAdapter(
-          child: Container(
-            margin: EdgeInsets.only(
-              left: AppConstants.mobileHorizontalPadVal.w,
-              right: AppConstants.mobileHorizontalPadVal.w,
-            ),
-            child: const ExperienceSliverGrid(),
+        SliverPadding(
+          padding: EdgeInsets.only(
+            left: AppConstants.mobileHorizontalPadVal.w,
+            right: AppConstants.mobileHorizontalPadVal.w,
           ),
+          sliver: const ExperienceSliverGrid(),
         ),
         SliverToBoxAdapter(
           child: Container(

@@ -32,6 +32,29 @@
   <title>Hussein Mohamed</title>
   <link rel="manifest" href="manifest.json">
 </head>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyA_JCvEp8eLv1fnkRp2ZPO9JT-pOwNvTbc",
+    authDomain: "hussein-mohamed-742ce.firebaseapp.com",
+    projectId: "hussein-mohamed-742ce",
+    storageBucket: "hussein-mohamed-742ce.firebasestorage.app",
+    messagingSenderId: "794610861320",
+    appId: "1:794610861320:web:35fc6ea6f369d003be98bd",
+    measurementId: "G-78H54NM10W"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 <body>
   <script src="flutter_bootstrap.js" async></script>
 </body>
